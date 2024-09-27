@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		C4BDFA7F2CA5C29A00187A55 /* Aula_7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDFA7E2CA5C29A00187A55 /* Aula_7App.swift */; };
 		C4BDFA812CA5C29A00187A55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDFA802CA5C29A00187A55 /* ContentView.swift */; };
-		C4BDFA832CA5C29C00187A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BDFA822CA5C29C00187A55 /* Assets.xcassets */; };
 		C4BDFA862CA5C29C00187A55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BDFA852CA5C29C00187A55 /* Preview Assets.xcassets */; };
 		C4BDFA8F2CA5C84C00187A55 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDFA8E2CA5C84C00187A55 /* Models.swift */; };
 		C4BDFA912CA5C8C100187A55 /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDFA902CA5C8C100187A55 /* Controllers.swift */; };
 		C4BDFA932CA5D44500187A55 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDFA922CA5D44500187A55 /* CharactersViewController.swift */; };
+		C4BDFA9E2CA73B0900187A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BDFA962CA73B0900187A55 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4BDFA7B2CA5C29A00187A55 /* Aula 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aula 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BDFA7E2CA5C29A00187A55 /* Aula_7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula_7App.swift; sourceTree = "<group>"; };
 		C4BDFA802CA5C29A00187A55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C4BDFA822CA5C29C00187A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4BDFA852CA5C29C00187A55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4BDFA8E2CA5C84C00187A55 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C4BDFA902CA5C8C100187A55 /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
 		C4BDFA922CA5D44500187A55 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		C4BDFA962CA73B0900187A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +57,11 @@
 		C4BDFA7D2CA5C29A00187A55 /* Aula 7 */ = {
 			isa = PBXGroup;
 			children = (
+				C4BDFA962CA73B0900187A55 /* Assets.xcassets */,
 				C4BDFA8E2CA5C84C00187A55 /* Models.swift */,
 				C4BDFA902CA5C8C100187A55 /* Controllers.swift */,
 				C4BDFA7E2CA5C29A00187A55 /* Aula_7App.swift */,
 				C4BDFA802CA5C29A00187A55 /* ContentView.swift */,
-				C4BDFA822CA5C29C00187A55 /* Assets.xcassets */,
 				C4BDFA842CA5C29C00187A55 /* Preview Content */,
 				C4BDFA922CA5D44500187A55 /* CharactersViewController.swift */,
 			);
@@ -134,8 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BDFA9E2CA73B0900187A55 /* Assets.xcassets in Resources */,
 				C4BDFA862CA5C29C00187A55 /* Preview Assets.xcassets in Resources */,
-				C4BDFA832CA5C29C00187A55 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
